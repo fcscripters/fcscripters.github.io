@@ -1,20 +1,30 @@
+.wrapper { text-align :center;
+           margin-top: 4em;
+            }
 
-body{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+img { width :10em;
+      height :10em;
+    }
 
-.row {
-  width: 100%;
-  height: 4em;
-}
+.ppics li  { display :inline-block;
+         position :relative;
+         border: 1px solid black;
+         margin:1em 1em;
+       -webkit-box-shadow: 3px 3px 3px #777;
+       -moz-box-shadow: 3px 3px 3px #777;
+            box-shadow: 3px 3px 3px #777;
+          }
+h5,h3 { text-align :center;}
 
-.offset {
-  margin: 1em 6em;
-}
+a { text-decoration:none;
+    color:black;
+   }
 
-.col2 {
-  width: 8.3%;
-  height: 13em;
-}
+.blogbox { background-color: #ededed; 
+           border: 1px solid black;
+           height:20em;
+           width:20em;
+           margin:auto;
+            }
+          
+.bwrapper { margin-left :3em; }
