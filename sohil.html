@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="profilephoto">
+  <img src="###" alt="####" />
+</div>
+
+<div class="summary">
+
+  <h2>Sohil Pandya</h2>
+  <a href="fcscripters.github.io"><p>FC Scripters</p></a>
+  <p> London, UK</p>
+  <p> Hopefull JS developer, currently in cohort 6 of Founders & Coders</p>
+  <p><img src="https://twitter.com/Sohil_is" alt="twitter" /> </p>
+  <p><img src="https://github.com/sohilpandya" alt="github" /> </p>
+  <p><img src="###" alt="linkdin" /> </p>
+
+</div>
+
+<div class="personalblog">
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
