@@ -3,35 +3,36 @@ layout: default
 ---
 
 
-
 <div class="home">
-
-      <li>
-          <img src="https://avatars1.githubusercontent.com/u/12121805?v=3&s=460" alt="Gethin Rees" style="width:304px;height:228px;">
+  <div class ="row">
+    <div class ="col2 offset">
+        <img src="https://avatars1.githubusercontent.com/u/12121805?v=3&s=460" alt="Gethin Rees" style="width:304px;height:228px;">
             <h3>
               Gethin Rees
             </h3>
+    </div>
+    <div class ="col2">
           <img src="https://avatars0.githubusercontent.com/u/12072531?v=3&s=460" alt="Conor Campbell" style="width:304px;height:228px;">
             <h3>
               Conor Campbell
             </h3>
+    </div>
+  </div>
+  <div class ="row">
+    <div class ="col2">
           <img src="https://avatars3.githubusercontent.com/u/11330267?v=3&s=460" alt="Tormod Smith" style="width:304px;height:228px;">
             <h3>
               Tormod Smith
             </h3>
+    </div>
+    <div class ="col2">
           <img src="https://avatars3.githubusercontent.com/u/2305591?v=3&s=460" alt="Sohil Pandya" style="width:304px;height:228px;">
             <h3>
               Sohil Pandya
             </h3>
-        <p>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        </p>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-  </ul>
 
+
+  </div>
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
