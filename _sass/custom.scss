@@ -10,11 +10,14 @@ img { width :10em;
          position :relative;
          border: 1px solid black;
          margin:1em 1em;
+         border-radius:5px;
        -webkit-box-shadow: 3px 3px 3px #777;
        -moz-box-shadow: 3px 3px 3px #777;
             box-shadow: 3px 3px 3px #777;
           }
 h5,h3 { text-align :center;}
+
+h5{ margin-top:5px;}
 
 a { text-decoration:none;
     color:black;
@@ -25,6 +28,13 @@ a { text-decoration:none;
            height:20em;
            width:20em;
            margin:auto;
+           border-radius:5px;
             }
           
-.bwrapper { margin-left :3em; }
+.bwrapper { margin-left :2em;
+			margin-top: 2em; }
+
+.rss-s p { margin: 2em;}			
+
+///**** Font colors and sizes ****///
+h3 { font-size:3em;}
