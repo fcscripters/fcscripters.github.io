@@ -2,15 +2,30 @@
 layout: default
 ---
 
+
+
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
+          <img src="https://avatars1.githubusercontent.com/u/12121805?v=3&s=460" alt="Gethin Rees" style="width:304px;height:228px;">
+            <h3>
+              Gethin Rees
+            </h3>
+          <img src="https://avatars0.githubusercontent.com/u/12072531?v=3&s=460" alt="Conor Campbell" style="width:304px;height:228px;">
+            <h3>
+              Conor Campbell
+            </h3>
+          <img src="https://avatars3.githubusercontent.com/u/11330267?v=3&s=460" alt="Tormod Smith" style="width:304px;height:228px;">
+            <h3>
+              Tormod Smith
+            </h3>
+          <img src="https://avatars3.githubusercontent.com/u/2305591?v=3&s=460" alt="Sohil Pandya" style="width:304px;height:228px;">
+            <h3>
+              Sohil Pandya
+            </h3>
+        <p>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </p>
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
