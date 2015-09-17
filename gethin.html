@@ -8,7 +8,7 @@ layout: default
 
 <div class="summary">
 
-  <h2>Sohil Pandya</h2>
+  <h2>Gethin Rees</h2>
   <a href="fcscripters.github.io"><p>FC Scripters</p></a>
   <p> London, UK</p>
   <p> Hopefull JS developer, currently in cohort 6 of Founders & Coders</p>
@@ -26,14 +26,13 @@ layout: default
   <ul class="post-link">
 
 
-    {% for post in site.categories.sohil %}
+    {% for post in site.categories.gethin %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>  <img class="thumbphoto" src="https://avatars3.githubusercontent.com/u/2305591?v=3&s=460" alt="####" />
 
 
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}            <img class="thumbphoto" src="https://avatars3.githubusercontent.com/u/2305591?v=3&s=460" alt="####" />
-</a>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
         <p>
           {{post.excerpt}}
