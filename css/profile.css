@@ -4,7 +4,6 @@
 
     margin: auto;
     width: 250px;
-    height: 305px;
     margin-bottom: 10px;
   }
 
@@ -32,3 +31,51 @@ border: 10px solid black;
 .menu-items a { text-decoration: none;
               color:#333;
             }
+
+
+.social img {
+  width: 40px;
+  height: 40px;
+  margin: 3px;
+
+}
+
+.social li img {
+  margin: 3px;
+}
+
+.social1 li {
+  display: inline-block;
+list-style: none;
+position: relative;
+margin: 0px;
+}
+.social1 {
+  margin: 15px 0px 15px 0px;
+}
+
+.ppics {
+  margin: 15px 0px 15px 0px;
+}
+
+.ppics li  { display :inline-block;
+         position :relative;
+         margin:1em 1em;
+       -webkit-box-shadow: 3px 3px 3px #777;
+       -moz-box-shadow: 3px 3px 3px #777;
+            box-shadow: 3px 3px 3px #777;
+        text-transform: uppercase;
+        font-weight: bold;
+        background-color: white;
+
+          }
+
+.thumbphoto {
+  width: 50px;
+  height: 50px;
+
+}
+
+.post-content {
+  text-align: left;
+}
