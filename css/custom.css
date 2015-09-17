@@ -5,18 +5,17 @@ body {
 
 }
 
-////••••• header •••••/////
-
-
-
-
 .hwrapper {
   background-color: black;
   color:#eee;
   text-align:left;
+  width: 740px;
+  margin: auto;
 
 }
-
+h3 {
+font-size: 4em;
+}
 .trigger li {
   list-style: none;
   display: inline-block;
@@ -31,7 +30,8 @@ body {
 .wrapper { text-align :center;
            /*background-color: #d3d3d3;*/
            padding:  1em;
-
+           width:100%;
+           margin:0 auto;
             }
 
 img {
@@ -40,7 +40,10 @@ img {
       height :10em;
     background-color: white;
     }
-
+.site-title{
+  margin: 0;
+  padding: 0;
+}
 .ppics li  { display :inline-block;
          position :relative;
          margin:1em 1em;
@@ -54,16 +57,35 @@ img {
           }
 h5,h3 { text-align :center;}
 
-h5{ margin-top:5px;}
-
-a { text-decoration:none;
-    color:black;
-   }
-
-.fwrapper .text{
-  margin-right: 2em;
+h5 { margin-top:5px;
+      font-weight:bolder;
 }
 
+/*a { text-decoration:none;
+    color:black;
+   }*/
+
+.fwrapper{
+  margin-right: 2em;
+  width: 740px;
+  margin: auto;
+}
+.footer-col-2{
+  margin-top: 28px;
+}
+.footer-col-3 ul li{
+  list-style: none;
+  text-align: left;
+
+}
+.footer-col-3{
+  margin-top: 13px;
+
+}
+.site-footer{
+  background-color: black;
+    text-align: center;
+}
 .blogbox {
            width:50em;
            height: 10em;
@@ -75,7 +97,8 @@ a { text-decoration:none;
 
 .bwrapper {
             background-color: #dbdbdb;
-            padding : 4em 0;
+            width: 100%;
+
 }
 
 .rss-s p {
@@ -96,3 +119,21 @@ a { text-decoration:none;
   background-color: black;
 }
 .site-header { background-color:black;}
+
+.contact-list a {
+  color: grey;
+  text-decoration: none;
+}
+
+.contact-list{
+  text-align: left;
+}
+
+.user-name {
+  color: grey;
+  text-decoration: none;
+}
+.social-media-list{
+  color: grey;
+  text-decoration: none;
+}
