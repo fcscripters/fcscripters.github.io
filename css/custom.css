@@ -11,7 +11,6 @@ body {
 
 
 .hwrapper {
-height: 7em;
   background-color: black;
   color:#eee;
   text-align:left;
@@ -96,3 +95,4 @@ a { text-decoration:none;
 .fwrapper{
   background-color: black;
 }
+.site-header { background-color:black;}
