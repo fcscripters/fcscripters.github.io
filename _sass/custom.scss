@@ -1,11 +1,37 @@
 body {
 }
+.page-content {
+  background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS0NAQEvtbMx_jqALWNcVWVTlyyHY1zxe5zGVRWEBDz71s5lwzC);
 
+}
+
+////••••• header •••••/////
+
+
+
+
+.hwrapper {
+height: 7em;
+  background-color: black;
+  color:#eee;
+  text-align:left;
+
+}
+
+.trigger li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 2em;
+  color: #eee;
+}
+.trigger li a {
+  text-decoration: none;
+
+}
 
 .wrapper { text-align :center;
            /*background-color: #d3d3d3;*/
-           padding: 4em 0;
-        background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS0NAQEvtbMx_jqALWNcVWVTlyyHY1zxe5zGVRWEBDz71s5lwzC);
+           padding:  1em;
 
             }
 
@@ -35,6 +61,10 @@ a { text-decoration:none;
     color:black;
    }
 
+.fwrapper .text{
+  margin-right: 2em;
+}
+
 .blogbox {
            width:50em;
            height: 10em;
@@ -63,5 +93,6 @@ a { text-decoration:none;
     width: 2em;
     margin: 0;
 }
-///**** Font colors and sizes ****///
-h3 { font-size:3em;}
+.fwrapper{
+  background-color: black;
+}
