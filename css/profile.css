@@ -29,3 +29,6 @@ border: 10px solid black;
 // border: 10px solid black;
 //
 // }
+.menu-items a { text-decoration: none;
+              color:#333;
+            }
