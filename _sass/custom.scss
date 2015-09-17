@@ -2,7 +2,9 @@
            margin-top: 4em;
             }
 
-img { width :10em;
+img {
+    margin: 10px;
+    width :10em;
       height :10em;
     }
 
@@ -10,10 +12,10 @@ img { width :10em;
          position :relative;
          border: 1px solid black;
          margin:1em 1em;
-         border-radius:5px;
        -webkit-box-shadow: 3px 3px 3px #777;
        -moz-box-shadow: 3px 3px 3px #777;
             box-shadow: 3px 3px 3px #777;
+        text-transform: uppercase;
           }
 h5,h3 { text-align :center;}
 
@@ -23,18 +25,17 @@ a { text-decoration:none;
     color:black;
    }
 
-.blogbox { background-color: #ededed; 
+.blogbox {
            border: 1px solid black;
-           height:20em;
-           width:20em;
+           width:50em;
+           height: 100em;
            margin:auto;
-           border-radius:5px;
             }
-          
+
 .bwrapper { margin-left :2em;
 			margin-top: 2em; }
 
-.rss-s p { margin: 2em;}			
+.rss-s p { margin: 2em;}
 
 ///**** Font colors and sizes ****///
 h3 { font-size:3em;}
