@@ -28,25 +28,12 @@ layout: default
 
 <div class="bwrapper">
             <h3>BLOG</h3>
-                <div class="personalblog">
-                  <ul class="post-link">
-
-                    {% for post in site.posts %}
-                      <li>
-                        <span class="post-meta">{{post.date| date:"%b %-d, %Y" }}</span>
-                          <h2>
-                            <a href="{{ post.url }}">{{ post.title }}</a>
-                          </h2>
-                          <p>
-                            {{ post.excerpt }}
-                          </p>
-                      </li>
-                    {% endfor %}
-                  </ul>
-                </div>
+                <div class="blogbox">
+            </div>
  </div>
 
 <div class="rss-s">
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS
+    <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT27VD46GxHSkJsMqyrFSl2MRQ15WAFHm41Ma98iqrk5DGzslISgw' name = 'RSS-Icon' alt = 'RSS-Icon'>
+</a></p>
 </div>
