@@ -2,24 +2,37 @@
 layout: default
 ---
 
-<div class="profilephoto">
-  <img src="https://avatars3.githubusercontent.com/u/2305591?v=3&s=460" alt="####" />
+<div>
+  <ul class="ppics">
+
+  <li>
+  <a href="sohil.html">
+  <img src="https://avatars3.githubusercontent.com/u/2305591?v=3&s=460" alt="Sohil Pandya">
+     <h5>  Sohil Pandya</h5>
+   </a>
+  </li>
+  </ul>
 </div>
 
-<div class="summary">
+<div>
 
-  <h2>Gethin Rees</h2>
+
   <a href="fcscripters.github.io"><p>FC Scripters</p></a>
   <p> London, UK</p>
   <p> Hopefull JS developer, currently in cohort 6 of Founders & Coders</p>
-  <p><img src="https://twitter.com/Sohil_is" alt="twitter" /> </p>
-  <p><img src="https://github.com/sohilpandya" alt="github" /> </p>
-  <p><img src="###" alt="linkdin" /> </p>
+  <div class="social">
+  <ul class="social1">
 
+  <li><a href="https://twitter.com/Sohil_is"><img src="assets/twitter.png" alt="twitter" /> </a></li>
+  <li><a href="https://github.com/sohilpandya"><img src="assets/github.png" alt="github" /> </a></li>
+  <li><a href="###"><img src="assets/linkedin.png" alt="linkdin" /></a> </li>
+  <li><a href="http://www.codewars.com/users/sohilpandya"><img src="assets/yelp.png" alt="codewars" /></a> </li>
+  </ul>
+  </div>
 </div>
 
-<div class="personalblog">
-  <h3>Sohil's Blog</h3>
+<div class="bwrapper">
+  <h2>Sohil's Blog</h2>
 
 
 
@@ -28,11 +41,12 @@ layout: default
 
     {% for post in site.categories.conor %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>  <img class="thumbphoto" src="https://avatars3.githubusercontent.com/u/2305591?v=3&s=460" alt="####" />
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
 
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}            <img class="thumbphoto" src="https://avatars3.githubusercontent.com/u/2305591?v=3&s=460" alt="####" />
+</a>
         </h2>
         <p>
           {{post.excerpt}}
