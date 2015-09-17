@@ -11,15 +11,19 @@
 }
 
 .site-title {
-    font-size: 26px;
+    font-size: 2.5em;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
-    float: left;
+    padding-top:2em;
+    text-align: center;
+    margin-left: 2em;
+    padding-left:2em;
+
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: #828282;
     }
 }
 
@@ -32,7 +36,7 @@
     }
 
     .page-link {
-        color: $text-color;
+        color: #828282;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
@@ -93,7 +97,6 @@
  */
 .site-footer {
     border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
 }
 
 .footer-heading {
@@ -106,7 +109,9 @@
     list-style: none;
     margin-left: 0;
 }
-
+.contact-list {
+  margin: 2em;
+}
 .footer-col-wrapper {
     font-size: 15px;
     color: $grey-color;
@@ -162,7 +167,8 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding:  0;
+
 }
 
 .page-heading {
@@ -186,8 +192,16 @@
 .post-link {
     display: block;
     font-size: 24px;
+    list-style: none;
+    text-align: left;
+    margin-right: 1em;
 }
-
+.post-link p {
+  font-size: 0.6em;
+}
+.post-link h2 {
+  font-size: 0.8em;
+}
 
 
 /**

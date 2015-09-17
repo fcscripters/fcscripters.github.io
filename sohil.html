@@ -28,7 +28,7 @@ layout: default
 
     {% for post in site.categories.sohil %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{{post.category}}</span>
 
 
         <h2>
