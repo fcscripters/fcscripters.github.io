@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="wrapper">
+<div class="pwrapper">
    <ul class="ppics">
         <li>
         <a href="gethin.html">
@@ -26,15 +26,17 @@ layout: default
           <h5>  Sohil Pandya</h5>
         </a>
        </li>
+   </ul>
 </div>
 
 <div class="bwrapper">
-  <div class="about">
-    <h3>ABOUT</h3>
-    <h2>The four of us are working together to become Javascript experts as a Founders and Coders team. Over sixteen weeks between September and December 2015 we shall blog about what we learn on the Founders and Coders course. Join the FC Scripters as we learn to code!  </h2>
-  </div>
-            <h3>BLOG</h3>
-                <div class="personalblog">
+  <div class="blog">   
+                  <div class="about">
+                    <h3>ABOUT</h3>
+                    <p>The four of us are working together to become Javascript experts as a Founders and Coders team. Over sixteen weeks between September and December 2015 we shall blog about what we learn on the Founders and Coders course. Join the FC Scripters as we learn to code!  </p>
+                  </div>
+                  
+                  <h3 class="blogtitle">BLOG</h3>
                   <ul class="post-link">
 
                     {% for post in site.posts %}
@@ -49,7 +51,7 @@ layout: default
                       </li>
                     {% endfor %}
                   </ul>
-                </div>
+  </div>
  </div>
 
 <!-- <div class="rss-s">
