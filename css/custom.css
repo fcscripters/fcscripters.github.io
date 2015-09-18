@@ -5,7 +5,7 @@ body {
 
 }
 
-/** fonts ****/ 
+/** fonts ****/
 h3 {font-size: 3em;
     padding-top: 0.5em;
 
@@ -64,7 +64,7 @@ img {
     background-color: white;
     }
 
-.ppics ul { margin-top: 0;}    
+.ppics ul { margin-top: 0;}
 
 .ppics li  { display :inline-block;
          position :relative;
@@ -86,7 +86,7 @@ img {
 /***blog spot *****/
 
 .dwrapper { width:100%;
-            text-align: center;   
+            text-align: center;
           }
 
 .about p{ text-align: left;
@@ -109,19 +109,19 @@ img {
 .pwrapper { text-align: center;
             width: 740px;
             text-align: center;
-            margin: auto}          
+            margin: auto}
 
 .blog { width: 740px;
         text-align: center;
         margin: auto;
-      }          
+      }
 .post-link ul li p { margin-bottom: 0}
 
 .post { text-align: center;
         margin:0 auto;
       }
 
-/****** footer ****/ 
+/****** footer ****/
 
 .fwrapper{
   margin-right: 2em;
@@ -132,11 +132,11 @@ img {
 .footer-col-2, .footer-col-3 {
   margin-top: 28px;
   text-align: right;
-  
+
 }
 .footer-col-3 ul li{
   list-style: none;
-  
+
 
 }
 .footer-col-3{
@@ -148,6 +148,15 @@ img {
   text-align: center;
 }
 
+.hwrapper p {
+  color: grey;
+}
+
+.bwrapper {
+            background-color: #dbdbdb;
+            width: 100%;
+
+}
 
 .rss-s p {
            text-align: center;
@@ -162,6 +171,15 @@ img {
     height: 2em;
     width: 2em;
     margin: 0;
+}
+.fwrapper{
+  background-color: black;
+}
+.site-header { background-color:black;
+}
+
+.site-nav{
+  margin-top: -85px;
 }
 
 
