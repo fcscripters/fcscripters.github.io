@@ -9,8 +9,10 @@ comments: true
 
 Code wars is a fantastic resource and a lot of fun. One of the main prerequisities for gaining entry to the Founders and Coders boot camp is gaining a level of 6 kyu. This can be a daunting task but these five great tips can help you on your way!
 
-{:refdef: style="text-align: center;"}
-![Code Wars](http://dev.codewars.com/images/logo-220ae435.png){: refdef}
+
+<div align="center">
+<img src="http://dev.codewars.com/images/logo-220ae435.png">
+</div>
 
 [Code Wars][codewars]
 http://www.codewars.com/
@@ -27,7 +29,11 @@ If you are stuck on a kata for more than an hour don't keep bashing away. Make s
 
 Don't just pick up the first kata that you see. Check for kata that are targeted by a lot of people and/or those that have many up votes.
 
-![Code Wars](assets/gethkata.png)
+<!--
+<div align="center" max-height="50%">
+<img  src="https://cloud.githubusercontent.com/assets/12121805/9955323/ec674e22-5de7-11e5-9be3-7a67447b06f0.png">
+</div>
+-->
 
 Have a look at a few before committing yourself. Some are better designed than others and the level of difficulty varies a fair bit too!
 
