@@ -22,7 +22,7 @@ a:link { text-decoration: none;}
 
 /*** header ****/
 .site-header { background-color:black;
-              text-transform: uppercase;}
+}
 .hwrapper {
   background-color: black;
   color:#eee;
@@ -43,7 +43,6 @@ a:link { text-decoration: none;}
   display: inline-block;
   margin-right: 2em;
   color: #eee;
-  text-transform: uppercase;
 }
 .trigger li a {
   text-decoration: none;
