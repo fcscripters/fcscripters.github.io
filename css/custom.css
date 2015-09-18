@@ -106,6 +106,10 @@ img {
             text-align: center;
             padding-bottom: 2em;
           }
+.pwrapper { text-align: center;
+            width: 740px;
+            text-align: center;
+            margin: auto}          
 
 .blog { width: 740px;
         text-align: center;
@@ -179,3 +183,5 @@ img {
   text-decoration: none;
 }
 .bloglinks li { text-transform: uppercase;}
+
+#bloglinks-title { color:white;}
