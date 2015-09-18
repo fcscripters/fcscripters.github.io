@@ -32,7 +32,7 @@ layout: default
 </div>
 
 <div class="bwrapper">
- 
+ <div class="pwrapper"
   <h2>Sohil's Blog</h2>
 
 
@@ -46,8 +46,8 @@ layout: default
 
 
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}            <img class="thumbphoto" src="https://avatars3.githubusercontent.com/u/2305591?v=3&s=460" alt="####" />
-</a>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}            <img class="thumbphoto" src="https://avatars3.githubusercontent.com/u/2305591?v=3&s=460" alt=" ####" />
+      </a>
         </h2>
         <p>
           {{post.excerpt}}
@@ -55,5 +55,5 @@ layout: default
       </li>
     {% endfor %}
   </ul>
-
+</div>
 </div>
