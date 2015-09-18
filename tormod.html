@@ -1,46 +1,62 @@
 ---
 layout: default
 ---
-
+<!--Profile photo -->
 <div>
   <ul class="ppics">
 
-  <li>
-  <a href="tormod.html">
-    <img src="https://avatars3.githubusercontent.com/u/11330267?v=3&s=460" alt="Tormod Smith">
-    <h5> Tormod Smith</h5>
-   </a>
-  </li>
+    <li>
+      <a href="tormod.html">
+        <img src="https://avatars3.githubusercontent.com/u/11330267?v=3&s=460" alt="Tormod Smith">
+        <h5> Tormod Smith</h5>
+      </a>
+    </li>
   </ul>
 </div>
 
+<!--User Information and social icons -->
 <div class="pwrapper">
-
-
-  <a class="organisation" href="fcscripters.github.io"><p>FC Scripters</p></a>
+  <a class="organisation" href="fcscripters.github.io">
+    <p>FC Scripters</p>
+  </a>
   <p class="location"> London, UK</p>
   <p class="profilephoto"> Hopefull JS developer, currently in cohort 6 of Founders & Coders</p>
   <div class="social">
-  <ul class="social1">
+    <ul class="social1">
 
-  <li><a href="https://twitter.com/SmithTormod"><img src="assets/twitter.png" alt="twitter" /> </a></li>
-  <li><a href="https://github.com/tormod17"><img src="assets/github.png" alt="github" /> </a></li>
-  <li><a href="###"><img src="assets/linkedin.png" alt="linkdin" /></a> </li>
-  <li><a href="http://www.codewars.com/users/tormod17"><img src="assets/yelp.png" alt="codewars" /></a> </li>
-  </ul>
+      <li>
+        <a href="https://twitter.com/SmithTormod">
+          <img src="assets/twitter.png" alt="twitter" /> </a>
+      </li>
+      <li>
+        <a href="https://github.com/tormod17">
+          <img src="assets/github.png" alt="github" /> </a>
+      </li>
+      <li>
+        <a href="###">
+          <img src="assets/linkedin.png" alt="linkdin" />
+        </a>
+      </li>
+      <li>
+        <a href="http://www.codewars.com/users/tormod17">
+          <img src="assets/yelp.png" alt="codewars" />
+        </a>
+      </li>
+    </ul>
   </div>
 </div>
 
+<!--Contains the blogs from the spefic user only. -->
 <div class="bwrapper">
   <div class="pwrapper">
     <h2>Tormod's Blog</h2>
 
 
 
-  <ul class="post-link">
+    <ul class="post-link">
 
 
-    {% for post in site.categories.tormod %}
+      {% for post in site.categories.tormod %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
@@ -53,7 +69,7 @@ layout: default
           {{post.excerpt}}
         </p>
       </li>
-    {% endfor %}
-  </ul>
-</div>
+      {% endfor %}
+    </ul>
+  </div>
 </div>

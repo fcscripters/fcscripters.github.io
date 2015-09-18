@@ -1,45 +1,62 @@
 ---
 layout: default
 ---
-
+<!--Profile photo -->
 <div>
   <ul class="ppics">
 
-  <li>
-  <a href="sohil.html">
-  <img src="https://avatars0.githubusercontent.com/u/12072531?v=3&s=460" alt="Conor Campbell">
-     <h5>Conor Campbell</h5>
-   </a>
-  </li>
+    <li>
+      <a href="sohil.html">
+        <img src="https://avatars0.githubusercontent.com/u/12072531?v=3&s=460" alt="Conor Campbell">
+        <h5>Conor Campbell</h5>
+      </a>
+    </li>
   </ul>
 </div>
 
+<!--User Information and social icons -->
 <div class="pwrapper">
-
-
-  <a class="organisation" href="fcscripters.github.io"><p>FC Scripters</p></a>
+  <a class="organisation" href="fcscripters.github.io">
+    <p>FC Scripters</p>
+  </a>
   <p class="location"> London, UK</p>
   <p class="profilephoto"> Hopefull JS developer, currently in cohort 6 of Founders & Coders</p>
   <div class="social">
-  <ul class="social1">
+    <ul class="social1">
 
-  <li><a href="https://twitter.com/conorc1000"><img src="assets/twitter.png" alt="twitter" /> </a></li>
-  <li><a href="https://github.com/Conorc1000"><img src="assets/github.png" alt="github" /> </a></li>
-  <li><a href="https://uk.linkedin.com/pub/conor-campbell/61/ab0/357"><img src="assets/linkedin.png" alt="linkdin" /></a> </li>
-  <li><a href="http://http://www.codewars.com/users/Conorc1000"><img src="assets/yelp.png" alt="codewars" /></a> </li>
-  </ul>
+      <li>
+        <a href="https://twitter.com/conorc1000">
+          <img src="assets/twitter.png" alt="twitter" /> </a>
+      </li>
+      <li>
+        <a href="https://github.com/Conorc1000">
+          <img src="assets/github.png" alt="github" /> </a>
+      </li>
+      <li>
+        <a href="https://uk.linkedin.com/pub/conor-campbell/61/ab0/357">
+          <img src="assets/linkedin.png" alt="linkdin" />
+        </a>
+      </li>
+      <li>
+        <a href="http://http://www.codewars.com/users/Conorc1000">
+          <img src="assets/yelp.png" alt="codewars" />
+        </a>
+      </li>
+    </ul>
   </div>
 </div>
 
 </div>
+
+<!--Contains the blogs from the spefic user only. -->
 <div class="bwrapper">
   <div class="pwrapper">
-  <h2>Conor's Blog</h2>
+    <h2>Conor's Blog</h2>
 
 
-  <ul class="post-link">
+    <ul class="post-link">
 
-    {% for post in site.categories.conor %}
+      {% for post in site.categories.conor %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
@@ -52,7 +69,7 @@ layout: default
           {{post.excerpt}}
         </p>
       </li>
-    {% endfor %}
-  </ul>
-</div>
+      {% endfor %}
+    </ul>
+  </div>
 </div>

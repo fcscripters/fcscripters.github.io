@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Conor"
+title:  "Conor's Founders & Coders Diary"
 date:   2015-09-17 22:17:14
 categories: Conor
 comments: true
