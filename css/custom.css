@@ -6,7 +6,7 @@ body {
 }
 
 /** fonts ****/
-h3 {font-size: 3em;
+h3 {font-size: 2em;
     padding-top: 0.5em;
 
     }
@@ -22,14 +22,14 @@ a:link { text-decoration: none;}
 
 /*** header ****/
 .site-header { background-color:black;
-              text-transform: uppercase;}
+}
 .hwrapper {
   background-color: black;
   color:#eee;
   text-align:left;
   width: 740px;
   margin: auto;
-  height: 5em;
+  height: 6em;
 }
 
 .site-title{
@@ -43,12 +43,13 @@ a:link { text-decoration: none;}
   display: inline-block;
   margin-right: 2em;
   color: #eee;
-  text-transform: uppercase;
 }
 .trigger li a {
   text-decoration: none;
 
 }
+
+
 /****profile pics ****/
 
 .pwrapper { text-align :center;
