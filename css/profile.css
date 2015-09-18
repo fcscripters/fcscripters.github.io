@@ -79,3 +79,14 @@ margin: 0px;
 .post-content {
   text-align: left;
 }
+
+.location{
+  font-size: 24px;
+}
+.organisation{
+  font-size: 30px;
+  color: black;
+}
+.profileinfo{
+  text-align: justify;
+}
