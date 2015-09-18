@@ -95,6 +95,10 @@ h5 { margin-top:5px;
 
             }
 
+.hwrapper p {
+  color: grey;
+}
+
 .bwrapper {
             background-color: #dbdbdb;
             width: 100%;
@@ -118,7 +122,12 @@ h5 { margin-top:5px;
 .fwrapper{
   background-color: black;
 }
-.site-header { background-color:black;}
+.site-header { background-color:black;
+}
+
+.site-nav{
+  margin-top: -85px;
+}
 
 .contact-list a {
   color: grey;
