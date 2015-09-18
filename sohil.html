@@ -32,27 +32,29 @@ layout: default
 </div>
 
 <div class="bwrapper">
-  <h2>Sohil's Blog</h2>
+  <div class="pwrapper">
+        <h2>Sohil's Blog</h2>
 
 
 
-  <ul class="post-link">
+        <ul class="post-link">
 
 
-    {% for post in site.categories.sohil %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          {% for post in site.categories.sohil %}
+            <li>
+              <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}            <img class="thumbphoto" src="https://avatars3.githubusercontent.com/u/2305591?v=3&s=460" alt="####" />
-</a>
-        </h2>
-        <p>
-          {{post.excerpt}}
-        </p>
-      </li>
-    {% endfor %}
-  </ul>
-
+              <h2>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}            <img class="thumbphoto" src="https://avatars3.githubusercontent.com/u/2305591?v=3&s=460" alt="####" />
+              </a>
+              </h2>
+              <p>
+                {{post.excerpt}}
+              </p>
+            </li>
+          {% endfor %}
+        </ul>
+  </div>
+  
 </div>
