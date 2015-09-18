@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Gethin"
+date:   2015-09-16 13:48:14
+categories: gethin
+comments: true
+
+---
+
+
+![Geth comp](https://en.wikipedia.org/wiki/File:Pandya_territories.png)
+
+excerpt_separator
+
+![Get PDF](https://en.wikipedia.org/wiki/File:Pandya_territories.png)
